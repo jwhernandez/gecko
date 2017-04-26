@@ -1,0 +1,539 @@
+body{
+    background:url('https://s-media-cache-ak0.pinimg.com/originals/f3/43/0f/f3430fc3348c0124f725357294eb52a2.jpg');
+    padding:50px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+.animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+.stars
+{
+    margin: 20px 0;
+    font-size: 24px;
+    color: #d17581;
+}
+
+
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.panel-image {
+    position: relative;   
+}
+
+.panel-image > h4, p {
+    padding: 5px 10px 0px; 
+}
+
+.panel-image img.panel-image-preview {
+    width: 80%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.panel-image label {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 80%;
+}
+
+.panel-heading > span {
+    background: #ccc;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+    border-radius: 0px;
+}
+
+.panel-body {
+   /*overflow: hidden;*/
+}
+
+.panel-footer span {
+    cursor: pointer;
+}
+
+.panel-image ~ input[type=checkbox] {
+    position:absolute;
+    top:- 30px;
+    z-index: -1;   
+}
+
+.panel-image ~ input[type=checkbox] ~ .panel-body {
+    height: 0px;
+    padding: 0px;
+}
+
+.panel-image ~ input[type=checkbox]:checked ~ .panel-body {
+    height: auto;
+    padding: 15px;
+}
+
+.panel-image ~ .panel-footer a {
+    padding: 0px 5px;
+    font-size: 14px;
+    /*color: rgb(100, 100, 100);*/
+}
+.btn-hover {
+  font-weight: normal;
+  color: #333333;
+  cursor: pointer;
+  background-color: inherit;
+  border-color: transparent;
+}
+
+.btn-hover-alt {
+  font-weight: normal;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: inherit;
+  border-color: transparent;
+}
+
+/**** comment system ****/
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.body-panel
+{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+#section {
+    margin: 10px auto;
+    width: 80%;
+}
+#section  #section .replyLink{
+    display:none;
+}
+    #section #section{
+        width: 80%;
+    }
+
+.replyLink{
+    float:right;
+}
+.messageList .message:after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+elemento {
+}
+.messageList .message {
+}
+.messageList .message {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-top: 1px solid #D7EDFC;
+}
+li {
+    list-style: none outside none;
+}
+.messageUserInfo {
+    float: left;
+    width: 50%;
+}
+.messageUserBlock {
+    background: url('../img/tab-selected-light.png') repeat-x scroll center bottom #D7EDFC;
+    border: 1px solid #D7EDFC;
+    border-radius: 5px;
+    position: relative;
+}
+.messageUserBlock div.avatarHolder {
+    background-color: #F0F7FC;
+    padding: 10px;
+    border-radius: 4px;
+}
+.messageUserBlock div.avatarHolder .avatar {
+    display: block;
+    font-size: 0px;
+}
+a.avatar {
+}
+.avatar img {border-style:none; }
+a:link, a:visited {
+    color: #176093;
+    text-decoration: none;
+}
+.messageUserBlock h3.userText {
+    padding: 6px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.messageUserBlock a.username {
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    line-height: 16px;
+}
+.messageUserBlock .userBanner {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.userBanner.bannerStaff {
+    color: #176093;
+    background-color: #D7EDFC;
+    border-color: #A5CAE4;
+}
+.userBanner.wrapped {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    position: relative;
+}
+.userBanner {
+    font-size: 11px;
+    background: url('../img/form-button-white-25px.png') repeat-x scroll center top transparent;
+    padding: 1px 5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+    font-style: inherit;
+    font-weight: inherit;
+}
+.messageUserBlock .userBanner:last-child {
+    margin-bottom: 0px;
+}
+.userBanner.bannerPrimary {
+    color: #176093;
+    background-color: #D7EDFC;
+    border-color: #A5CAE4;
+}
+.userBanner.bannerStaff.wrapped span {
+    background-color: #A5CAE4;
+}
+.userBanner.wrapped span.before {
+    border-top-left-radius: 3px;
+    left: -1px;
+}
+.userBanner.wrapped span {
+    position: absolute;
+    top: -4px;
+    width: 5px;
+    height: 4px;
+    background-color: inherit;
+}
+.userBanner.bannerStaff.wrapped span {
+    background-color: #A5CAE4;
+}
+.userBanner.wrapped span.after {
+    border-top-right-radius: 3px;
+    right: -1px;
+}
+.messageUserBlock .arrow {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    display: block;
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-width: 10px medium 10px 10px;
+    border-style: solid none solid solid;
+    border-color: transparent -moz-use-text-color transparent #D7EDFC;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    border-image: none;
+    -moz-border-left-colors: #D7EDFC;
+}
+.messageUserBlock .arrow
+        {
+            position: absolute;
+            top: 10px;
+            right: -10px;
+            
+            display: block;
+            width: 0px;
+            height: 0px;
+            line-height: 0px;
+            
+            border: 10px solid transparent;
+            border-left-color: #d7edfc;
+            -moz-border-left-colors: #d7edfc;
+            border-right: none;
+            
+            /* Hide from IE6 */
+            _display: none;
+        }
+        
+            .messageUserBlock .arrow span
+            {
+                position: absolute;
+                top: -10px;
+                left: -11px;
+                
+                display: block;
+                width: 0px;
+                height: 0px;
+                line-height: 0px;
+                
+                border: 10px solid transparent;
+                border-left-color: #f0f7fc;
+                -moz-border-left-colors: #f0f7fc;
+                border-right: none;
+            }
+.message .messageInfo {
+    padding: 0px;
+    margin-left: 140px;
+    border-bottom: 1px none #000;
+}
+.primaryContent {
+    background-color: #F0F7FC;
+    padding: 10px;
+    border:#D7EDFC solid 1px;
+}
+.message .messageContent {
+    min-height: 100px;
+    overflow: hidden;
+}
+.messageText {
+    font-size: 11pt;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    line-height: 1.4;
+    padding:15px;
+}
+.message .messageMeta {
+    font-size: 11px;
+    padding: 15px 5px 5px;
+    margin: -5px;
+    overflow: hidden;
+}
+.message .privateControls {
+    float: right;
+}
+.message .privateControls .item:last-child {
+    margin-right: 0px;
+}
+.message .privateControls .item {
+    margin-right: 10px;
+    float:right;
+}
+body .muted, body a.muted, body .muted a {
+    color: #176093;
+}
+.quote {
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 2px 5px 0 22px;
+      margin-bottom: 1px;
+      background: url("../img/quote.png") no-repeat 0px 3px transparent;
+      
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*area de comentarios*/
+#commentArea{
+    padding:10px;
+    color:#444444;
+}
+.commentText{
+    margin-left:40px;
+}
+.textArea{
+    padding:4px;
+    font-family:Arial,Helvetica,Sans-serif;
+    font-size:12px;
+    color:#666666;
+    border:1px solid #66aff9;
+    margin-bottom:10px;
+}
+.waveButton, .waveButtonMain{
+    /* The submit buttons */
+    background:url(../img/button_bg.jpg) repeat-x 50% 50%;
+    border:1px solid #DDDDDD;
+    padding:4px;
+    
+    cursor:pointer;
+}
+
+.waveButtonMain{
+    display:block;
+    margin:10px 20px;
+}
+.comment{
+    margin:5px 50px;
+    padding:8px 10px;   
+    border:#D7EDFC solid 1px;
+    background-color:#F0F7FC;
+    
+    -moz-border-radius:6px;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius:6px;
+    
+    overflow:hidden;
+}
+.commentAvatar{
+    width:30px;
+    height:30px;
+    float:left;
+    margin-right:10px;
+}
+
+
+/* si esta vacio el campo*/
+#error_vacio {
+    margin: 10px auto;
+    width: 50%;
+    background-color: #F0F7FC;
+    padding: 10px;
+    border:#D7EDFC solid 1px;
+}
+
+.close{
+    cursor: pointer;
+    float:right;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+    
+    #section{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+    #section{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #section {
+        width: 100%;
+    }
+    .privateControls {
+    float: left;
+    width: 100%;
+    margin-top:20px;
+    }
+
+}
+
+
+
+
